@@ -1,0 +1,19 @@
+﻿<Window x:Class="LangServiceSentiment.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LangServiceSentiment"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="1024">
+    <StackPanel Orientation="Vertical" Margin="20">
+        <StackPanel Orientation="Horizontal" Margin="10">
+            <TextBox x:Name="ReqText" Width="640" Height="100" TextWrapping="Wrap" AcceptsReturn="True"></TextBox>
+            <Button x:Name="DoAnalytics" Click="DoAnalytics_Click">Sentiment Analytics</Button>
+        </StackPanel>
+
+        <ScrollViewer>
+            <TextBlock x:Name="Analytics" Height="293" Width="954" TextWrapping="Wrap" FontSize="14"></TextBlock>
+        </ScrollViewer>
+    </StackPanel>
+</Window>
