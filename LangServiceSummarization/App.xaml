@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿<Application x:Class="LangServiceSummarization.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -7,3 +8,14 @@
          
     </Application.Resources>
 </Application>
+=======
+﻿<Application x:Class="LangServiceSummarization.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:LangServiceSummarization"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
+>>>>>>> f1b05a6653254629fbd859ee4ac91730cc60a4ea
